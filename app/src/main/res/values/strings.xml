@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">FirstApp_LV</string>
+    <string name="hallo_text">Hallo World!</string>
+    <string name="group_name">G-02-24</string>
+    <string name="MB">Marts Bičevskis</string>
+    <string name="DEL">Dens Enrijs Lakučs</string>
+    <string name="LV">Loreta Vītiņa</string>
 </resources>
