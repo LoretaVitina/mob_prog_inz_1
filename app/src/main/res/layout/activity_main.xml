@@ -32,8 +32,8 @@
 
     <TextView
         android:id="@+id/group_name"
-        android:layout_width="228dp"
-        android:layout_height="53dp"
+        android:layout_width="230dp"
+        android:layout_height="136dp"
         android:layout_marginStart="91dp"
         android:layout_marginTop="80dp"
         android:layout_marginEnd="91dp"
@@ -57,7 +57,7 @@
         android:layout_marginStart="227dp"
         android:layout_marginTop="70dp"
         android:layout_marginEnd="30dp"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="20dp"
         android:autofillHints="member_1"
         android:text="@string/MB"
         android:textAlignment="center"
@@ -75,9 +75,9 @@
         android:layout_width="150dp"
         android:layout_height="29dp"
         android:layout_marginStart="227dp"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="30dp"
-        android:layout_marginBottom="70dp"
+        android:layout_marginBottom="20dp"
         android:autofillHints="member_2"
         android:text="@string/DEL"
         android:textAlignment="center"
@@ -96,7 +96,7 @@
         android:layout_width="142dp"
         android:layout_height="38dp"
         android:layout_marginStart="227dp"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="80dp"
         android:autofillHints="member_3"
@@ -110,5 +110,20 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/member_2" />
+
+    <TextView
+        android:id="@+id/design_by"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="50dp"
+        android:text="@string/designed_by"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/group_name"
+        app:layout_constraintVertical_bias="0.981" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
